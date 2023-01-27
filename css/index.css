@@ -1,31 +1,62 @@
 .hero{
-    /* background-image: url('../images/banner.png'); */
     width: 100%;
     height: 700px;
- background-position: left top;
- background-size: cover;
- background-repeat: no-repeat;
- position: relative;
  /* margin-top: 100px; */
  overflow: hidden;
  display: flex;
- align-items: center;
+ margin: 0px 50px;
  justify-content: space-between;
 }
-.hero p{
-
+h1{
+    color: #6C63FF;
+    font-size: 45px;
+    font-weight: 500;
+}
+.moto{
+    margin-top: 130px;
+ width: 680px;
 justify-content: space-between;
-font-size: 60px;
-
-    color:#EFF5F5 ;
-   background-color:rgba(0 0, 0, 0.4);
-   /* border:1px solid #EFF5F5 ; */
    border-radius: 8px;
 }
-.hero-image{
-
+.categories-list{
+    margin-top: 25px;
 }
+.categories-list li{
+    font-size: 20px;
+    margin-left: 60px;  
+    color: #444453;
+}
+
+.hero-image{
+    height: 450px;
+}
+
 .hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.carsoule{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 40px; */
+}
+.next-btn{
+    width:35px;
+    height: 35px;
+}
+.next-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: rotate(180deg);
+}
+.prev-btn{
+    width:35px;
+    height: 35px;
+}
+.prev-btn img {
     width: 100%;
     height: 100%;
     object-fit: contain;
