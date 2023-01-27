@@ -24,11 +24,12 @@ justify-content: space-between;
 .categories-list li{
     font-size: 20px;
     margin-left: 60px;  
-    color: #444453;
+    
 }
 
 .hero-image{
     height: 450px;
+    width: 580px;
 }
 
 .hero-image img{
@@ -74,6 +75,12 @@ section h1{
     padding-left: 20px;
     overflow: hidden;
 }
+section h2{
+    font-size: 23px;
+    font-weight: 550;
+    margin-left: 20px ;
+    height: 70px;
+}
 .blog{
   display: grid;
   grid-template-columns: repeat(auto-fit ,minmax(300px, 1fr));
@@ -82,7 +89,9 @@ section h1{
 .blog-list{
     border-radius: 10px;
     overflow: hidden;
-    background-color: #EFF5F5;
+    color: #EFF5F5;
+    border: 1px solid #444453;
+    background-color: #444453;
 }
 .blog-img{
   /* width:300px; */
@@ -95,9 +104,16 @@ section h1{
     object-fit: cover;
 }
 .blog-description{
-    margin-top: 10px;
     padding: 10px 6px;
-    padding-bottom: 20px;
+    
+
+}
+.blog-description ul{
+    margin-left: 50px;
+    height: 160px;
+}
+.blog-description h2{
+    color:#536DFE;
 }
 .blog-popular{
     padding:10px 20px;
@@ -131,7 +147,15 @@ section h1{
     display: 60%;
     margin-left: 10px;
 }
-
+.button {
+    background-color: white !important;
+    border: none;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 10px;
+    float:right;
+    padding: 5px 20px;
+}
 @media screen and (max-width:400px){
     .hero{
         height: 400px;
