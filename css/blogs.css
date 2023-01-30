@@ -80,6 +80,14 @@ section{
     border-radius: 50%;
     
 }
+.cover{
+    height: 100px;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .avatar-title p{
     opacity: 0.8;
     font-size: 14px;
@@ -101,7 +109,7 @@ section{
     padding-bottom: 50px;
 }
 .blog-text {
-    padding: 30px 0px;
+   height: 150px;
 }
 .blog-text h2{
     font-size: 40px;
