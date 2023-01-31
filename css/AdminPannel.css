@@ -3,6 +3,11 @@
     margin-top: 200px;
     width: 950px;
 }
+h1{
+    border-bottom: 1px solid gray;
+    width: 400px;
+    margin-bottom: 100px;
+}
 .course-approval{
     margin:50px 0px;
     display: flex;
@@ -28,4 +33,9 @@
     height: 100%;
     object-fit: contain;
     border-radius: 50%;
+}
+.decline{
+    background-color: red !important;
+    border: 1px solid rgb(173, 5, 5);
+    margin-left: 20px;
 }
